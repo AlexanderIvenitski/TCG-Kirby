@@ -1,0 +1,6 @@
+title: Hero Section
+
+fields:
+  caption:
+    type: text
+    required: true

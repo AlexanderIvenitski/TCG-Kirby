@@ -1,0 +1,6 @@
+title: Hero Section
+
+fields:
+  answer:
+    type: textarea
+    required: true

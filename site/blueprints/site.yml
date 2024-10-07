@@ -1,0 +1,27 @@
+title: TCG-Tattoo
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      email:
+        type: text
+        required: true
+      street:
+        type: text
+        required: true
+      city:
+        type: text
+        required: true
+      country:
+        type: text
+        required: true
+  sidebar:
+    width: 1/3
+    sections:
+      section:
+        label: Bereiche
+        type: pages
+        status: all
+        info: "{{ page.intendedTemplate }}"
+        image: flase

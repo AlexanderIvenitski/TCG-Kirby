@@ -1,0 +1,8 @@
+Title: Kontakt
+
+----
+
+Text: Ich nehme ausschließlich Anfragen über das Bookingformular an. Falls du mich bezüglich anderer Themen erreichen möchtest, sende mir gerne eine E-Mail oder Instagramnachricht.
+
+----
+Uuid: uozqIW0NP8COc5zt
