@@ -76,5 +76,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     <label for="message">Message:</label>
     <textarea id="message" name="message" required><?= isset($message) ? htmlspecialchars($message) : '' ?></textarea>
 
-    <button type="submit" name="submit">Send</button>
+    <button type="submit" name="submit" value="submit">Send</button>
 </form>
