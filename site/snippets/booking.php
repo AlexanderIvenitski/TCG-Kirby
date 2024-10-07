@@ -1,7 +1,8 @@
 <section id="booking" class=booking>
         <h1><?= $data->title() ?></h1>
         
-                <script type="text/javascript" src="https://form.jotform.com/jsform/240322410834040"></script>
+               <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/240322410834040"></script>
+-->
         
 
 </section>
