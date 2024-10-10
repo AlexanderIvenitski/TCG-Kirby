@@ -1,6 +1,8 @@
 <!-- site/snippets/contact.php -->
 
+
 <?php
+
 session_start(); // Start the session at the beginning of the script
 
 $success = false;
@@ -55,10 +57,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     header('Content-Type: application/json');
     return json_encode($response);
     exit;
-}
+} 
+
 ?>
 
-<form id="contact-form" method="post" action="<?= $page->url() ?>">
+
+<form id="contact-form" method="post" action="<?= $page->url()?>">
     <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($csrf_token) ?>">
 
     <?php if ($success): ?>
@@ -78,3 +82,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
 
     <button type="submit" name="submit">Send</button>
 </form>
+
+

@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       xhr.open('POST', form.getAttribute('action'), true);
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-      xhr.onload = function() {
+      
+      /* xhr.onload = function() {
         var response = JSON.parse(xhr.responseText);
         var messageContainer = document.createElement('p');
         messageContainer.textContent = response.message;
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form.appendChild(messageContainer);
         form.reset(); // Reset form fields after submission
       };
-
+*/
       xhr.onerror = function() {
         console.error('Error occurred while sending the request.');
       };
