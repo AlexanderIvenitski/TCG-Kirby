@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
 
     // Return JSON response
     header('Content-Type: application/json');
-    echo json_encode($response);
+    return json_encode($response);
     exit;
 }
 ?>
